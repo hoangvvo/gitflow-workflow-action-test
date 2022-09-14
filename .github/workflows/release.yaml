@@ -1,0 +1,13 @@
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        type: string
+        required: true
+        description: "semver version to release"
+
+name: Create release
+
+jobs:
+  create_release:
+    uses: hoangvvo/gitflow-workflow-action-test/.github/workflows/test.yaml
