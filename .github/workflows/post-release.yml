@@ -9,4 +9,4 @@ name: Release workflows
 
 jobs:
   release_workflow:
-    uses: hoangvvo/gitflow-workflow-action-test/.github/workflows/test.yaml
+    uses: hoangvvo/gitflow-workflow-action-test/.github/workflows/test.yaml@main
